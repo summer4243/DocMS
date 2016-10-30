@@ -1,0 +1,25 @@
+﻿
+/*------------------------------书籍信息--------------------------------*/
+.price { font-size: 26px; font-weight: 600; color: #f40; margin-top: 5px; }
+.hot { font-size: 12px; color: Red; }
+
+/*------------------------------内容------------------------------------*/
+#book_main { margin-top: 30px; }
+#myTab { margin-bottom: 20px; }
+
+/*------------------------------评论------------------------------------*/
+.warnlogin { cursor:pointer; }
+
+.discuss { height:90px;margin-top:30px; margin-bottom:5px; border:#bbb solid 1px; border-radius:3px; border-right:3px solid #5bc0de; padding-left:5px; }
+.avatar {float:left; height:90px; width:100px; }
+.avatar img {margin-top:4px; height:82px; width:82px;}
+.discussmain{ float:left; width:80%}
+.discusstitle {height:28px; padding-top:4px; margin-bottom:5px; border-bottom:solid 1px #bbb; color:red;}
+.discusstitle a { font-size:14px; }
+
+/*------------------------------推荐------------------------------------*/
+.hotbook { height:180px; width:220px;  margin-bottom:20px; border-bottom:#999 solid 1px; }
+.sidebookname { height:30px; width:100%; }
+.sidebookcover { float:left; height:140px; width:62%; margin-left:-20px;}
+.sidebookcover img {height:90%; }
+.sidebookmes { float:left; height:140px; width:38%; }

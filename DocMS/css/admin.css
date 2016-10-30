@@ -1,0 +1,23 @@
+﻿/*----------------------------------全局----------------------------------*/
+body { font-family: 'Microsoft YaHei',Verdana, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; color: #222; }
+
+a:link { text-decoration: none;} 
+a:active { text-decoration:none;} 
+a:hover { text-decoration:none;}  
+a:visited { text-decoration: none;}
+
+table {font-size:13px;}
+
+#div_main {margin:0 auto; margin-top:10px; min-height:600px; }
+/*----------------------------------登录----------------------------------*/
+#loginbox { margin: 0 auto; margin-top: 50px; width: 280px; height: 200px; text-align: center; }
+
+#txt_name { margin-bottom: 10px; }
+#txt_psw { margin-bottom: 15px; }
+#btn_login { margin-bottom: 15px; }
+
+#lab_tip { color: Red; }
+
+/*----------------------------------页脚----------------------------------*/
+
+#footer { height:100px; text-align:center; padding-top:30px; border-top:solid 1px #ccc;}

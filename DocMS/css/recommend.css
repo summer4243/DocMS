@@ -1,0 +1,28 @@
+﻿/*----------------------------------全局----------------------------------*/
+body {
+    font-family: 'Microsoft YaHei',Verdana, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #222;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+#topnav {
+}
+
+#lab_tip {
+    color: Red;
+}
+
+/*----------------------------------页脚----------------------------------*/
+
+#footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: solid 1px #ccc;
+}

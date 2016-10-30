@@ -1,0 +1,71 @@
+﻿/*----------------------------------全局----------------------------------*/
+body { font-family: 'Microsoft YaHei',Verdana, Helvetica, Arial, sans-serif; font-size: 13px; line-height: 18px; color: #222; }
+
+a:link { text-decoration: none;} 
+a:active { text-decoration:none;} 
+a:hover { text-decoration:none;}  
+a:visited { text-decoration: none;}
+
+table {font-size:13px;}
+
+#div_main {margin:0 auto; margin-top:10px; min-height:600px; }
+/*----------------------------------中间----------------------------------*/
+#topnav {}
+#boss_recommend { }
+#group_introduction { }
+#member_introduction { }
+#group_item { border-left:solid 1px #ccc;}
+
+/*在这里控制每个目录下面的书籍*/
+.bookdiv { float: left; height: 180px; width: 196px; margin-right: 15px; margin-bottom: 20px; }
+.bookdiv p { line-height: 22px; margin-left:8px; }
+.bookdiv h5 {margin-left:8px;}
+
+
+/*控制那个阅览按钮*/
+.button_read {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+
+  float:right;
+}
+
+.button_read:hover,
+.button_read:focus,
+.button_read:active,
+.button_read.active,
+.open > .dropdown-toggle.button_read {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.button_read:active,
+.button_read.active,
+.open > .dropdown-toggle.button_read {
+  background-image: none;
+}
+
+#lab_tip { color: Red; }
+
+/*----------------------------------页脚----------------------------------*/
+
+#footer { height:100px; text-align:center; padding-top:30px; border-top:solid 1px #ccc;}
